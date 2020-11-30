@@ -1,0 +1,14 @@
+int mul(int, int);
+mul(m,n){
+	if(n<1){0}else{m+mul(m,n-1)}
+}
+
+main() {
+	int a;
+	a = 5;
+	int b;
+	b = 4;
+	int c;
+	c = mul(5,4);
+	print(c);
+}

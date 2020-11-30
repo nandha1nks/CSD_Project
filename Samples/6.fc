@@ -1,0 +1,31 @@
+int mul(int, int);
+mul(m,n){
+	if(n<1){0}else{m+mul(m,n-1)}
+}
+
+int div(int, int);
+div(m,n){
+	if(m<n){0}else{1+div(m-n,n)}
+}
+
+main() {
+	int a;
+	int b;
+	int c;
+	getInt(a);
+	getInt(b);
+	getInt(c);
+
+
+	if (c == 1) {
+		a = a+b;
+	} else if(c == 2){
+		a = a-b;
+	} else if(c == 3) {
+		a = mul(a,b);
+	} else if(c == 4) {
+		a = div(a,b);
+	}
+
+	print(a);
+}
