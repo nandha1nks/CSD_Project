@@ -19,12 +19,24 @@ main() {
 
 	if (c == 1) {
 		a = a+b;
-	} else if(c == 2){
-		a = a-b;
-	} else if(c == 3) {
-		a = mul(a,b);
-	} else if(c == 4) {
-		a = div(a,b);
+	} 
+	else{
+		if(c == 2){
+			a = a-b;
+		}
+		else{ 
+			if(c == 3) {
+				a = mul(a,b);
+			} 
+			else{
+				if(c == 4) {
+					a = div(a,b);
+				}
+				else{
+					a = a;
+				}
+			}
+		}
 	}
 
 	print(a);
