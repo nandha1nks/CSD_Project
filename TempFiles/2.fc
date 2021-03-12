@@ -1,0 +1,17 @@
+int mul(int, int);
+mul(n, m){
+	if(m<1){0} else{mul(n,m-1) + n}
+}
+
+int fact(int);
+fact(n){
+	if(n<2){1} else{mul(fact(n-1), n)}
+}
+
+main()
+{
+    int a;
+    getInt(a);
+    a = fact(a);
+    print(a);
+}

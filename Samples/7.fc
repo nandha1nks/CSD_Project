@@ -1,0 +1,39 @@
+int mul(int, int);
+mul(m,n){
+	if(n<1){0}else{m+mul(m,n-1)}
+}
+
+int div(int, int);
+div(m,n){
+	if(m<n){0}else{1+div(m-n,n)}
+}
+
+int mod(int, int);
+mod(m,n){
+	if(m<n){m}else{mod(m-n,n)}
+}
+
+int reverse(int, int);
+reverse(b,c){
+	if(c==0){
+		b
+	}
+    else
+    {
+	    reverse(mul(b,10)+mod(c,10), div(c,10))
+    }
+}
+
+main() {
+	int a;
+	int b;
+	getInt(a);
+	b = reverse(0,a);
+
+	if(a==b){
+		a=2;
+	} else {
+		a=1;
+	}
+	print(a);
+}

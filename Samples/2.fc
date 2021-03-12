@@ -1,0 +1,11 @@
+int double(int);
+double(n)
+{
+	n+n
+}
+
+main() {
+	int a;
+	getInt(a);
+	print(double(a));
+}

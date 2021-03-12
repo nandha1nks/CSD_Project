@@ -1,0 +1,109 @@
+{C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU_Control.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU_Control.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_Control
+-- Compiling module ALU_Control_tb
+
+Top level modules:
+	ALU_Control_tb
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RegisterFile.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RegisterFile.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RegisterFile
+-- Compiling module RegisterFile_tb
+
+Top level modules:
+	RegisterFile_tb
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Core.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Core.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Core
+
+Top level modules:
+	Core
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/SignExtend.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/SignExtend.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SignExtend16
+-- Compiling module SignExtend16_tb
+
+Top level modules:
+	SignExtend16_tb
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/BranchPC.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/BranchPC.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module BranchPC
+
+Top level modules:
+	BranchPC
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Mux.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Mux.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux5
+-- Compiling module Mux32
+-- Compiling module Mux32_tb
+
+Top level modules:
+	Mux5
+	Mux32_tb
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Summa.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Summa.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CPU_Core
+
+Top level modules:
+	CPU_Core
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/And.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/And.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module And
+
+Top level modules:
+	And
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ROM.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ROM.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ROM
+-- Compiling module ROM_tb
+
+Top level modules:
+	ROM_tb
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/JumpPc.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/JumpPc.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module JumpPC
+
+Top level modules:
+	JumpPC
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/CPU.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/CPU.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Adder.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Adder
+-- Compiling module Adder_tb
+
+Top level modules:
+	Adder_tb
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RAM.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RAM.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RAM
+-- Compiling module RAM_tb
+
+Top level modules:
+	RAM_tb
+
+} {} {}}

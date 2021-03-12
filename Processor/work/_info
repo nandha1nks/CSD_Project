@@ -1,0 +1,516 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples/ARM PROCESSOR
+vAdder
+Z0 !s110 1605157488
+!i10b 1
+!s100 d7E>=V>PP1HhY?QWOGKbE3
+IzRMC[ZWA<e2L4LMd8R<2j2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Modeltech_pe_edu_10.4a/examples/CSD Project
+Z3 w1604140536
+Z4 8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Adder.v
+Z5 FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/Adder.v
+L0 2
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1605157488.000000
+Z8 !s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Adder.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Adder.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@adder
+vAdder_tb
+R0
+!i10b 1
+!s100 ]:_?on[Q5m_70T>OD3oS33
+ImJ5^;;`ic4UH5H7_PgmR93
+R1
+R2
+R3
+R4
+R5
+L0 10
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@adder_tb
+vALU
+Z11 !s110 1605157486
+!i10b 1
+!s100 [bcj3<Zc]]lS6F34IA8>20
+I6dEG8Ei2d_>G^5ESnP`=<3
+R1
+R2
+Z12 w1604179573
+Z13 8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU.v
+Z14 FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU.v
+L0 2
+R6
+r1
+!s85 0
+31
+Z15 !s108 1605157486.000000
+Z16 !s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU.v|
+!s101 -O0
+!i113 1
+R10
+n@a@l@u
+vALU_Control
+Z18 !s110 1605167232
+!i10b 1
+!s100 AaTcMKnDFTgVDSDOaOT`J3
+IfT^o3R<QiP9IS9DfDUGVz1
+R1
+R2
+Z19 w1605165715
+Z20 8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU_Control.v
+Z21 FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU_Control.v
+L0 2
+R6
+r1
+!s85 0
+31
+Z22 !s108 1605167232.000000
+Z23 !s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU_Control.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ALU_Control.v|
+!s101 -O0
+!i113 1
+R10
+n@a@l@u_@control
+vALU_Control_tb
+R18
+!i10b 1
+!s100 e08@@:_zj=^:21N1W?9`X0
+IZYzY22_fLgG]^4@M^@]z<1
+R1
+R2
+R19
+R20
+R21
+L0 44
+R6
+r1
+!s85 0
+31
+R22
+R23
+R24
+!s101 -O0
+!i113 1
+R10
+n@a@l@u_@control_tb
+vALU_tb
+R11
+!i10b 1
+!s100 lFM0;ZlCe3jja<Iaf2Un20
+I4ZjVFcaA<:i_nkaWWQFS43
+R1
+R2
+R12
+R13
+R14
+L0 71
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R10
+n@a@l@u_tb
+vAnd
+!s110 1605157490
+!i10b 1
+!s100 VfC8]GiLKl8IfU]b4JX?<0
+I=Hk9UmZ;PclR<8`aSb?DB3
+R1
+R2
+w1604141544
+8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/And.v
+FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/And.v
+L0 2
+R6
+r1
+!s85 0
+31
+Z25 !s108 1605157489.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/And.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/And.v|
+!s101 -O0
+!i113 1
+R10
+n@and
+vBranchPC
+Z26 !s110 1605157489
+!i10b 1
+!s100 4PeE_]jhQ2jN0JA1ZQ5[53
+II6flz2FhPnT5>@PfVXzDH1
+R1
+R2
+w1604141412
+8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/BranchPC.v
+FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/BranchPC.v
+L0 2
+R6
+r1
+!s85 0
+31
+R25
+!s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/BranchPC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/BranchPC.v|
+!s101 -O0
+!i113 1
+R10
+n@branch@p@c
+vCore
+!s110 1605167233
+!i10b 1
+!s100 VJC>0e:FBa[EImdl918`i2
+IYh<e1MkJzNFTED;Sfi0Am3
+R1
+R2
+w1605165902
+8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Core.v
+FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/Core.v
+L0 2
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Core.v|
+!s101 -O0
+!i113 1
+R10
+n@core
+vCPU
+!s110 1605160716
+!i10b 1
+!s100 GO@USOOG>A4]b_MS03zRH2
+Ikh;BUIA3eC1UB@5^Lel6[1
+R1
+R2
+w1605160693
+8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/CPU.v
+FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/CPU.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1605160716.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/CPU.v|
+!s101 -O0
+!i113 1
+R10
+n@c@p@u
+vCPU_Core
+!s110 1605160439
+!i10b 1
+!s100 ;Yh9`?XNbZZBb]7C1>MdM1
+IESG1@_YVhWP]f3Y8AGP<e1
+R1
+R2
+w1605160352
+8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Summa.v
+FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/Summa.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1605160439.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Summa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Summa.v|
+!s101 -O0
+!i113 1
+R10
+n@c@p@u_@core
+vJumpPC
+R26
+!i10b 1
+!s100 O[10GTF2_3m4Xn0`KC5ZM1
+I2O5zd:_JP[6m>FUd:kI@S0
+R1
+R2
+w1604141832
+8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/JumpPc.v
+FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/JumpPc.v
+L0 2
+R6
+r1
+!s85 0
+31
+R25
+!s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/JumpPc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/JumpPc.v|
+!s101 -O0
+!i113 1
+R10
+n@jump@p@c
+vMux32
+R0
+!i10b 1
+!s100 ]aCGZJN=<hBlTOT:E;cDI1
+IFZGAiZQ]a^nd4:VE0YhLY0
+R1
+R2
+Z27 w1604160427
+Z28 8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Mux.v
+Z29 FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/Mux.v
+L0 14
+R6
+r1
+!s85 0
+31
+Z30 !s108 1605157487.000000
+Z31 !s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Mux.v|
+Z32 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/Mux.v|
+!s101 -O0
+!i113 1
+R10
+n@mux32
+vMux32_tb
+R0
+!i10b 1
+!s100 5aOi5lIXi[3H821B@5d4g2
+IjOeJLCO0c^;dndN@Y:di[1
+R1
+R2
+R27
+R28
+R29
+L0 26
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!s101 -O0
+!i113 1
+R10
+n@mux32_tb
+vMux5
+R0
+!i10b 1
+!s100 7:jiFd?bGgRl>^D`Xm69J0
+I`?MP<^`OOHf>NI]K6f:F13
+R1
+R2
+R27
+R28
+R29
+L0 2
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!s101 -O0
+!i113 1
+R10
+n@mux5
+vRAM
+R11
+!i10b 1
+!s100 3BkB0VJWPco2h7dBT=FCh0
+I7CC5`a]OH4e`>Z4TKPilQ1
+R1
+R2
+Z33 w1604085937
+Z34 8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RAM.v
+Z35 FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/RAM.v
+L0 2
+R6
+r1
+!s85 0
+31
+R15
+Z36 !s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RAM.v|
+Z37 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RAM.v|
+!s101 -O0
+!i113 1
+R10
+n@r@a@m
+vRAM_tb
+R11
+!i10b 1
+!s100 `Q``@F03kQbcXM3cQ[2971
+I5Veka9YW_j4>i8FWf>B5z0
+R1
+R2
+R33
+R34
+R35
+L0 17
+R6
+r1
+!s85 0
+31
+R15
+R36
+R37
+!s101 -O0
+!i113 1
+R10
+n@r@a@m_tb
+vRegisterFile
+Z38 !s110 1605160589
+!i10b 1
+!s100 =2kI1l_[:j1GzKGzcW=c<1
+I`I8hbKiV44;J]J@?^RObj0
+R1
+R2
+Z39 w1605160582
+Z40 8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RegisterFile.v
+Z41 FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/RegisterFile.v
+L0 2
+R6
+r1
+!s85 0
+31
+Z42 !s108 1605160589.000000
+Z43 !s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RegisterFile.v|
+Z44 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/RegisterFile.v|
+!s101 -O0
+!i113 1
+R10
+n@register@file
+vRegisterFile_tb
+R38
+!i10b 1
+!s100 TW6XZQMd=`Jb6;HLHjiR;3
+IARmZ:alhTN9?=f[@T95DZ0
+R1
+R2
+R39
+R40
+R41
+L0 31
+R6
+r1
+!s85 0
+31
+R42
+R43
+R44
+!s101 -O0
+!i113 1
+R10
+n@register@file_tb
+vROM
+Z45 !s110 1605167745
+!i10b 1
+!s100 VQ<l?BSYd3?S:hd7ZbdK20
+IW9TKY4Y<NzGzbi6zXL@`l3
+R1
+R2
+Z46 w1605167736
+Z47 8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ROM.v
+Z48 FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/ROM.v
+L0 2
+R6
+r1
+!s85 0
+31
+Z49 !s108 1605167745.000000
+Z50 !s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ROM.v|
+Z51 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/ROM.v|
+!s101 -O0
+!i113 1
+R10
+n@r@o@m
+vROM_tb
+R45
+!i10b 1
+!s100 f?m>2]a4JT:QeYP@Ak;Nz3
+I]c2zhF1oeiWj7IRI`c=IG2
+R1
+R2
+R46
+R47
+R48
+L0 64
+R6
+r1
+!s85 0
+31
+R49
+R50
+R51
+!s101 -O0
+!i113 1
+R10
+n@r@o@m_tb
+vSignExtend16
+R0
+!i10b 1
+!s100 2A>4;^gIB^;E3hk9OIO4n0
+I;Q:=RdCYH6kn]NWM199R;0
+R1
+R2
+Z52 w1604127530
+Z53 8C:/Modeltech_pe_edu_10.4a/examples/CSD Project/SignExtend.v
+Z54 FC:/Modeltech_pe_edu_10.4a/examples/CSD Project/SignExtend.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+Z55 !s107 C:/Modeltech_pe_edu_10.4a/examples/CSD Project/SignExtend.v|
+Z56 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/CSD Project/SignExtend.v|
+!s101 -O0
+!i113 1
+R10
+n@sign@extend16
+vSignExtend16_tb
+R0
+!i10b 1
+!s100 G4ofjbfGRX4B[9_XmT?hB1
+Il@Jh=he`EF?K6oPIWPBWm0
+R1
+R2
+R52
+R53
+R54
+L0 12
+R6
+r1
+!s85 0
+31
+R7
+R55
+R56
+!s101 -O0
+!i113 1
+R10
+n@sign@extend16_tb

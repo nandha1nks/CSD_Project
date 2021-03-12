@@ -1,0 +1,15 @@
+int doubleMe(int);
+
+doubleMe(a)
+{
+    a+a
+}
+
+main()
+{
+    int a;
+    a = 5;
+
+    a = doubleMe(doubleMe(doubleMe(a)));
+    print(a);
+}

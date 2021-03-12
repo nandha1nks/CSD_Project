@@ -1,0 +1,13 @@
+module PCMux(
+	input [31:0] addedPc,
+	input [31:0] branchPc,
+	input CONTROL_BRANCH,
+	output reg [31:0] updatedPC);
+
+	always @(addedPc or branchPc or CONTROL_BRANCH) begin
+		if(CONTROL_BRANCH == 0) begin
+			updatedPc = addedPc;
+		end 
+		else begin updatedPc = branchPc; end
+	end
+endmodule 

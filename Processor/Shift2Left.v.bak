@@ -1,0 +1,10 @@
+module PcShiftLeft2
+(
+  input [23:0] in,
+  output reg [23:0] out
+);
+
+  always @(inputData) begin
+    out = in << 2;
+  end
+endmodule

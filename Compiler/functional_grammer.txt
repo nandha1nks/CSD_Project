@@ -1,0 +1,71 @@
+main:                   MN OB CB OCB io_statements CCB;
+
+io_statements:          statement 
+                        | io_statements statement;
+    
+statement:              io_statement SCL
+                        |selection_statement;
+
+
+selection_statement:    IF OB or_expression CB OCB or_expression CCB ELS OCB or_expression CCB;
+
+or_expression:          and_expression
+                        | and_expression LOR or_expression;
+                       
+and_expression:         equality_expression
+                        |equality_expression LAND and_expression;
+
+equality_expression:    relational_expression
+                        | relational_expression EQL equality_expression
+                        | relational_expression NEQL equality_expression
+                        | expression EQL expression
+                        | expression NEQL expression;
+
+
+relational_expression:  expression
+                        | expression LT expression
+                        | expression GT expression
+                        | expression LTE expression
+                        | expression GTE expression
+
+io_statement:           assignment_statement
+                        | output_statement
+                        | block
+                        | declaration_statement
+                        ;
+
+declaration_statement:  DT ID;
+
+assignment_statement:   ID ASG expression;
+
+output_statement:       OS;
+
+block:                  BLK OCB io_statements CCB;
+
+
+expression:             function_call
+                        | io_statement SCL
+                        | selection_statement
+                        | additive_expression
+                        ;
+
+additive_expression:    multiplicative_expression
+                        | additive_expression PLS multiplicative_expression
+                        | additive_expression MIN multiplicative_expression
+
+multiplicative_expression:  identifier
+                            | multiplicative_expression STR identifier
+                            | multiplicative_expression FSH identifier
+                            | multiplicative_expression PCT identifier
+identifier:             NUM
+                        | ID;
+
+function_call:          ID OB parameter_list CB;
+
+parameter_list:         parameter_lists
+                        |   
+                        ;
+
+parameter_lists:        expression COM parameter_lists
+                        | expression
+                        ;
